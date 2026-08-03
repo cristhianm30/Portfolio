@@ -36,5 +36,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           npx ng deploy \
-            --repo=https://github.com/Cristhianm30/Portfolio.git \
+            --repo=https://github.com/cristhianm30/Portfolio.git \
             --base-href=/Portfolio/
