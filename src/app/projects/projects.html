@@ -6,14 +6,200 @@
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-3 mx-auto" id="projects">
   <!-- Grid -->
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+    <!-- Invoice Bot -->
+    <div
+      class="group flex flex-col min-h-[20rem] bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70"
+    >
+      <div class="h-28 flex justify-center items-center bg-emerald-100 rounded-t-xl dark:bg-emerald-950">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 64 64"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="size-16 text-emerald-700 dark:text-emerald-300"
+          aria-hidden="true"
+        >
+          <path d="M16 7h21l12 12v38H16z" />
+          <path d="M37 7v13h12M23 29h18M23 36h18M23 43h8" />
+          <path d="m36 48 4 4 8-9" />
+        </svg>
+      </div>
+      <div class="p-4 md:p-5">
+        <div class="flex flex-wrap gap-1.5 mb-2">
+          <span
+            class="py-1 px-2 rounded-md text-[11px] font-medium bg-orange-100 text-orange-800 dark:bg-orange-800/30 dark:text-orange-300"
+            >Kotlin</span
+          >
+          <span
+            class="py-1 px-2 rounded-md text-[11px] font-medium bg-green-100 text-green-800 dark:bg-green-800/30 dark:text-green-300"
+            >Spring Boot</span
+          >
+          <span
+            class="py-1 px-2 rounded-md text-[11px] font-medium bg-cyan-100 text-cyan-800 dark:bg-cyan-800/30 dark:text-cyan-300"
+            >WebFlux</span
+          >
+          <span
+            class="py-1 px-2 rounded-md text-[11px] font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-300"
+            >PostgreSQL</span
+          >
+          <span
+            class="py-1 px-2 rounded-md text-[11px] font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-300"
+            >Gmail · Pub/Sub · Drive</span
+          >
+        </div>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300">Invoice Bot</h3>
+        <p class="mt-2 text-sm text-gray-500 dark:text-neutral-500">
+          Backend que automatiza la recepción y el procesamiento de facturas electrónicas desde
+          Gmail. Valida XML DIAN UBL 2.1 y organiza los documentos asociados en Google Drive.
+        </p>
+      </div>
+      <div class="mt-auto border-t border-gray-200 px-4 py-2 text-center text-xs text-gray-500 dark:border-neutral-700 dark:text-neutral-400">
+        Proyecto privado · Sin enlace al código
+      </div>
+    </div>
+    <!-- End Invoice Bot -->
+
+    <!-- Inky -->
+    <div
+      class="group flex flex-col min-h-[20rem] bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70"
+    >
+      <div class="h-28 flex justify-center items-center bg-purple-100 rounded-t-xl dark:bg-purple-950">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 64 64"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="size-16 text-purple-700 dark:text-purple-300"
+          aria-hidden="true"
+        >
+          <rect x="7" y="10" width="50" height="44" rx="5" />
+          <path d="M24 10v44M40 10v44" />
+          <rect x="12" y="17" width="7" height="10" rx="2" />
+          <rect x="29" y="17" width="7" height="14" rx="2" />
+          <rect x="45" y="17" width="7" height="8" rx="2" />
+          <path d="M12 34h7M12 40h7M29 38h7M45 31h7M45 37h7" />
+        </svg>
+      </div>
+      <div class="p-4 md:p-5">
+        <div class="flex flex-wrap gap-1.5 mb-2">
+          <span
+            class="py-1 px-2 rounded-md text-[11px] font-medium bg-indigo-100 text-indigo-800 dark:bg-indigo-800/30 dark:text-indigo-300"
+            >Kanban</span
+          >
+          <span
+            class="py-1 px-2 rounded-md text-[11px] font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-300"
+            >Tareas</span
+          >
+          <span
+            class="py-1 px-2 rounded-md text-[11px] font-medium bg-pink-100 text-pink-800 dark:bg-pink-800/30 dark:text-pink-300"
+            >Seguimiento de clientes</span
+          >
+          <span
+            class="py-1 px-2 rounded-md text-[11px] font-medium bg-orange-100 text-orange-800 dark:bg-orange-800/30 dark:text-orange-300"
+            >Traducción</span
+          >
+          <span
+            class="py-1 px-2 rounded-md text-[11px] font-medium bg-cyan-100 text-cyan-800 dark:bg-cyan-800/30 dark:text-cyan-300"
+            >Archivos</span
+          >
+        </div>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300">Inky</h3>
+        <p class="mt-2 text-sm text-gray-500 dark:text-neutral-500">
+          Herramienta para asistentes de tatuadores que reúne tareas, prospectos y clientes en un
+          tablero Kanban. Facilita el seguimiento, la consulta de información, el registro de obras
+          realizadas y la gestión de traducciones y archivos.
+        </p>
+      </div>
+      <div class="mt-auto border-t border-gray-200 px-4 py-2 text-center text-xs text-gray-500 dark:border-neutral-700 dark:text-neutral-400">
+        Proyecto privado · Sin enlace al código
+      </div>
+    </div>
+    <!-- End Inky -->
+
+    <!-- Turnity -->
+    <div
+      class="group flex flex-col min-h-[20rem] bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70"
+    >
+      <div class="h-28 flex justify-center items-center bg-sky-100 rounded-t-xl dark:bg-sky-950">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 64 64"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="size-16 text-sky-700 dark:text-sky-300"
+          aria-hidden="true"
+        >
+          <rect x="8" y="12" width="48" height="43" rx="5" />
+          <path d="M20 8v9M44 8v9M8 23h48" />
+          <circle cx="23" cy="35" r="4" />
+          <path d="M16 48c1-6 13-6 14 0M37 33h12M37 41h12" />
+        </svg>
+      </div>
+      <div class="p-4 md:p-5">
+        <div class="flex flex-wrap gap-1.5 mb-2">
+          <span
+            class="py-1 px-2 rounded-md text-[11px] font-medium bg-orange-100 text-orange-800 dark:bg-orange-800/30 dark:text-orange-300"
+            >Kotlin · Ktor</span
+          >
+          <span
+            class="py-1 px-2 rounded-md text-[11px] font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-300"
+            >Next.js · React</span
+          >
+          <span
+            class="py-1 px-2 rounded-md text-[11px] font-medium bg-cyan-100 text-cyan-800 dark:bg-cyan-800/30 dark:text-cyan-300"
+            >TypeScript</span
+          >
+          <span
+            class="py-1 px-2 rounded-md text-[11px] font-medium bg-indigo-100 text-indigo-800 dark:bg-indigo-800/30 dark:text-indigo-300"
+            >PostgreSQL</span
+          >
+        </div>
+        <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300">Turnity</h3>
+        <p class="mt-2 text-sm text-gray-500 dark:text-neutral-500">
+          Plataforma full stack para gestionar empresas, empleados, turnos, pagos, tareas y reportes
+          desde una interfaz web conectada a una API backend.
+        </p>
+      </div>
+      <div class="mt-auto border-t border-gray-200 px-4 py-2 text-center text-xs text-gray-500 dark:border-neutral-700 dark:text-neutral-400">
+        Proyecto privado · API y aplicación web · Sin enlace al código
+      </div>
+    </div>
+    <!-- End Turnity -->
+
     <!-- Card -->
     <div
-      class="group flex flex-col min-h-[25rem] bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70"
+      class="group flex flex-col min-h-[20rem] bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70"
     >
-      <div class="h-40 flex justify-center items-center bg-heikoh-beige rounded-t-xl">
-        <img src="assets/logo/logo_heikoh.webp" alt="Logo de Pragma" class="w-30 h-40" />
+      <div class="h-28 flex justify-center items-center bg-heikoh-beige rounded-t-xl">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 64 64"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.25"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="size-16 text-amber-900 dark:text-amber-200"
+          aria-hidden="true"
+        >
+          <rect x="8" y="9" width="48" height="46" rx="6" />
+          <path d="M8 21h48" />
+          <circle cx="15" cy="15" r="1" />
+          <circle cx="20" cy="15" r="1" />
+          <circle cx="25" cy="15" r="1" />
+          <path d="M17 46v-8h7v8M29 46V32h7v14M41 46V26h7v20M15 50h36" />
+        </svg>
       </div>
-      <div class="p-4 md:p-6">
+      <div class="p-4 md:p-5">
         <div class="flex flex-wrap gap-1.5 mb-2">
           <span
             class="inline-flex items-center gap-x-1 py-1 px-2 rounded-md text-[11px] font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500"
@@ -49,7 +235,7 @@
         <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
           Heikoh API
         </h3>
-        <p class="mt-3 text-gray-500 dark:text-neutral-500">
+        <p class="mt-2 text-sm text-gray-500 dark:text-neutral-500">
           Aplicación web de finanzas personales que te ayuda a tomar el control total de tus
           ingresos, gastos y deudas.
         </p>
@@ -58,13 +244,13 @@
         class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700"
       >
         <a
-          class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+          class="w-full py-2 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
           href="#"
         >
           Documentación
         </a>
         <a
-          class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+          class="w-full py-2 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
           href="https://github.com/Cristhianm30/Heikoh"
           target="_blank"
           rel="noopener noreferrer"
@@ -80,115 +266,27 @@
       class="group flex flex-col min-h-[20rem] bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70"
     >
       <!-- Header con icono -->
-      <div class="h-40 flex justify-center items-center bg-amber-300 rounded-t-xl">
+      <div class="h-28 flex justify-center items-center bg-purple-300 rounded-t-xl">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="90"
-          height="90"
-          viewBox="0 0 24 24"
+          viewBox="0 0 64 64"
           fill="none"
           stroke="currentColor"
-          stroke-width="1.5"
+          stroke-width="2.25"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-folder-code-icon lucide-folder-code"
+          class="size-16 text-purple-900 dark:text-purple-100"
+          aria-hidden="true"
         >
-          <path d="M10 10.5 8 13l2 2.5" />
-          <path d="m14 10.5 2 2.5-2 2.5" />
-          <path
-            d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z"
-          />
+          <path d="M32 6c-8 7-12 17-12 29v9l12-5 12 5v-9c0-12-4-22-12-29z" />
+          <path d="m20 29-9 7-3 14 12-7M44 29l9 7 3 14-12-7" />
+          <circle cx="32" cy="23" r="4" />
+          <path d="M27 46c1 5 2 9 5 13 3-4 4-8 5-13" />
         </svg>
       </div>
 
       <!-- Contenido -->
-      <div class="p-4 md:p-6">
-        <div class="flex flex-wrap gap-1.5 mb-2">
-          <span
-            class="inline-flex items-center gap-x-1 py-1 px-2 rounded-md text-[11px] font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500"
-          >
-            Angular
-          </span>
-          <span
-            class="inline-flex items-center gap-x-1 py-1 px-2 rounded-md text-[11px] font-medium bg-cyan-100 text-cyan-800 dark:bg-cyan-800/30 dark:text-cyan-500"
-          >
-            Tailwind
-          </span>
-          <span
-            class="inline-flex items-center gap-x-1 py-1 px-2 rounded-md text-[11px] font-medium bg-orange-100 text-orange-800 dark:bg-orange-800/30 dark:text-orange-500"
-          >
-            HTML
-          </span>
-          <span
-            class="inline-flex items-center gap-x-1 py-1 px-2 rounded-md text-[11px] font-medium bg-blue-100 text-blue-800 dark:bg-blue-800/30 dark:text-blue-500"
-          >
-            CSS
-          </span>
-          <span
-            class="inline-flex items-center gap-x-1 py-1 px-2 rounded-md text-[11px] font-medium bg-indigo-100 text-indigo-800 dark:bg-indigo-800/30 dark:text-indigo-500"
-          >
-            Preline
-          </span>
-        </div>
-
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
-          Portfolio Web
-        </h3>
-        <p class="mt-3 text-gray-500 dark:text-neutral-500">
-          Mi portafolio personal donde comparto proyectos y experiencia de desarrollo.
-        </p>
-      </div>
-
-      <!-- Footer con links -->
-      <div
-        class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700"
-      >
-        <a
-          class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
-          href="#"
-          target="_blank"
-        >
-          Ver Portafolio
-        </a>
-        <a
-          class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
-          href="https://github.com/Cristhianm30/Portfolio"
-          target="_blank"
-        >
-          Repositorio
-        </a>
-      </div>
-    </div>
-    <!-- End Card -->
-
-    <!-- Card -->
-    <div
-      class="group flex flex-col min-h-[20rem] bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70"
-    >
-      <!-- Header con icono -->
-      <div class="h-40 flex justify-center items-center bg-purple-300 rounded-t-xl">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="90"
-          height="90"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-folder-code-icon lucide-folder-code"
-        >
-          <path d="M10 10.5 8 13l2 2.5" />
-          <path d="m14 10.5 2 2.5-2 2.5" />
-          <path
-            d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z"
-          />
-        </svg>
-      </div>
-
-      <!-- Contenido -->
-      <div class="p-4 md:p-6">
+      <div class="p-4 md:p-5">
         <div class="flex flex-wrap gap-1.5 mb-2">
           <span
             class="inline-flex items-center gap-x-1 py-1 px-2 rounded-md text-[11px] font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500"
@@ -240,7 +338,7 @@
         <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
           SpaceX Launches
         </h3>
-        <p class="mt-3 text-gray-500 dark:text-neutral-500">
+        <p class="mt-2 text-sm text-gray-500 dark:text-neutral-500">
           Aplicación full-stack que consulta y muestra información sobre los lanzamientos de SpaceX.
         </p>
       </div>
@@ -250,7 +348,7 @@
         class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700"
       >
         <a
-          class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+          class="w-full py-2 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
           href="https://github.com/Cristhianm30/spacex-launches"
           target="_blank"
         >

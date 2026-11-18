@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hoja de vida | Cristhian Andrés Moreno Velasco</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 10mm 11mm;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: #222222;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10.5pt;
+        line-height: 1.32;
+      }
+
+      h1,
+      h2,
+      h3,
+      p,
+      ul {
+        margin: 0;
+      }
+
+      h1 {
+        color: #111111;
+        font-size: 18pt;
+        letter-spacing: 0.2px;
+        line-height: 1.15;
+        text-align: center;
+      }
+
+      h2 {
+        margin: 13px 0 7px;
+        color: #111111;
+        font-size: 11pt;
+        letter-spacing: 0.7px;
+        text-transform: uppercase;
+      }
+
+      h3 {
+        color: #222222;
+        font-size: 10.5pt;
+      }
+
+      .cv-header {
+        text-align: center;
+      }
+
+      .contact {
+        margin-top: 5px;
+        color: #666666;
+        font-size: 9.5pt;
+        line-height: 1.4;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .summary {
+        margin-top: 12px;
+        font-size: 10.5pt;
+        line-height: 1.35;
+        text-align: left;
+      }
+
+      .role {
+        margin: 0 0 8px;
+        break-inside: avoid;
+      }
+
+      .employer-heading,
+      .role-heading,
+      .education-heading {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .employer-heading {
+        margin-top: 4px;
+      }
+
+      .date {
+        flex: 0 0 auto;
+        color: #555555;
+        font-size: 9.5pt;
+        font-weight: normal;
+      }
+
+      .company {
+        color: #222222;
+        font-size: 10.5pt;
+        font-weight: bold;
+      }
+
+      .location {
+        color: #666666;
+        font-size: 9.5pt;
+      }
+
+      .job-title {
+        color: #222222;
+        font-size: 10pt;
+      }
+
+      ul {
+        margin-top: 3px;
+        padding-left: 16px;
+      }
+
+      li {
+        margin: 0 0 2px;
+        padding-left: 1px;
+      }
+
+      .page-two {
+        break-before: page;
+      }
+
+      .education-item {
+        margin-bottom: 9px;
+      }
+
+      .education-meta {
+        color: #666666;
+        font-size: 9.5pt;
+        font-weight: normal;
+      }
+
+      .education-heading h3 {
+        font-size: 10.5pt;
+      }
+
+      .education-school {
+        color: #222222;
+        font-size: 9.5pt;
+      }
+
+      .skill-list {
+        position: relative;
+        margin: 0 0 5px;
+        padding-left: 13px;
+      }
+
+      .skill-list::before {
+        position: absolute;
+        left: 0;
+        content: "•";
+      }
+
+      .skill-label {
+        color: #222222;
+        font-weight: bold;
+      }
+
+      .note {
+        margin-top: 12px;
+        color: #666666;
+        font-size: 8pt;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="cv-header">
+      <h1>CRISTHIAN ANDRÉS MORENO VELASCO</h1>
+      <p class="contact">
+        Cali, Colombia · +57 314 854 28 65 ·
+        <a href="mailto:cristhian.452@outlook.com">cristhian.452@outlook.com</a><br />
+        <a href="https://www.linkedin.com/in/cristhianm30/">linkedin.com/in/cristhianm30</a> ·
+        <a href="https://github.com/Cristhianm30">github.com/Cristhianm30</a>
+      </p>
+      <p class="summary">
+        Desarrollador de software con más de 2 años de experiencia en desarrollo y operación de
+        microservicios y APIs RESTful en entornos cloud. Actualmente desarrollo y mantengo
+        funcionalidades backend con Java y Kotlin, y frontend con TypeScript y Angular en
+        arquitecturas de microfrontends. Experiencia adicional en AWS, Docker, Kubernetes,
+        observabilidad y prácticas de diseño para construir soluciones escalables y mantenibles.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Experiencia profesional</h2>
+
+        <article class="role">
+          <div class="employer-heading">
+            <p class="company">Pirani</p>
+            <span class="location">Remoto · Colombia</span>
+          </div>
+          <div class="role-heading">
+            <p class="job-title">Software Developer</p>
+            <span class="date">1 de septiembre de 2026 – Actualidad</span>
+          </div>
+          <ul>
+            <li>
+              Desarrollo y mantenimiento de microservicios y APIs RESTful con Java y Kotlin,
+              utilizando Spring Boot y Ktor.
+            </li>
+            <li>
+              Desarrollo y mantenimiento de funcionalidades frontend con TypeScript y Angular en
+              una arquitectura de microfrontends.
+            </li>
+            <li>
+              Monitoreo del rendimiento de los servicios con New Relic y colaboración en el análisis
+              y la resolución de incidentes en producción.
+            </li>
+            <li>
+              Uso de RabbitMQ para mensajería entre servicios en arquitecturas orientadas a eventos,
+              y de MongoDB, MySQL y Redis para gestionar datos.
+            </li>
+            <li>
+              Uso de agentes de IA para agilizar el análisis y desarrollo de soluciones y reducir el
+              tiempo de implementación.
+            </li>
+          </ul>
+        </article>
+
+        <article class="role">
+          <div class="employer-heading">
+            <p class="company">Pirani</p>
+            <span class="location">Remoto · Colombia</span>
+          </div>
+          <div class="role-heading">
+            <p class="job-title">Application Support Analyst</p>
+            <span class="date">Noviembre 2025 – Agosto 2026</span>
+          </div>
+          <ul>
+            <li>
+              Desarrollo backend enfocado en el mantenimiento correctivo y evolutivo de
+              microservicios existentes: corrección de defectos, actualización y refactorización de
+              código Java y Kotlin con Spring Boot y Ktor para mejorar la calidad, estabilidad y
+              mantenibilidad.
+            </li>
+            <li>
+              Mantenimiento de pruebas unitarias para validar correcciones y cambios evolutivos, y
+              prevenir regresiones.
+            </li>
+            <li>
+              Trabajo con microservicios en arquitecturas orientadas a eventos y seguimiento de
+              vulnerabilidades del backend con Snyk hasta su remediación.
+            </li>
+            <li>
+              Diagnóstico de incidentes en producción con New Relic, logs y trazas; apoyo a la
+              operación con Docker, Kubernetes y ajustes puntuales en Terraform.
+            </li>
+            <li>Administración de bases de datos MongoDB y MySQL.</li>
+          </ul>
+        </article>
+
+        <h2 class="page-two">Experiencia profesional</h2>
+        <article class="role">
+          <div class="employer-heading">
+            <p class="company">Pragma</p>
+            <span class="location">Remoto · Colombia</span>
+          </div>
+          <div class="role-heading">
+            <p class="job-title">Desarrollador de Software</p>
+            <span class="date">Enero 2025 – Agosto 2025</span>
+          </div>
+          <ul>
+            <li>
+              Diseño y desarrollo de microservicios y APIs RESTful con Java y Spring Boot,
+              aplicando Clean Code, Arquitectura Hexagonal, DDD, Spring Security y JWT.
+            </li>
+            <li>
+              Migración de servicios a Spring WebFlux, reduciendo significativamente los tiempos de
+              respuesta de segundos a milisegundos y mejorando el procesamiento concurrente.
+            </li>
+            <li>
+              Despliegue en AWS (ECR, ECS, Lambda, API Gateway y ALB), integraciones orientadas a
+              eventos y despliegues Canary.
+            </li>
+            <li>
+              Pruebas con JUnit y Mockito, análisis estático con SonarQube y colaboración en
+              pipelines CI/CD con Azure DevOps y Jira.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section>
+        <article class="role">
+          <div class="employer-heading">
+            <p class="company">San Telmo Pizzería Artesanal</p>
+            <span class="location">Santander de Quilichao, Colombia</span>
+          </div>
+          <div class="role-heading">
+            <p class="job-title">Desarrollador de Software</p>
+            <span class="date">Junio 2024 – Octubre 2024</span>
+          </div>
+          <ul>
+            <li>
+              Desarrollo de aplicaciones de escritorio con Java y JavaFX para gestión de turnos,
+              nómina y costos de productos, automatizando procesos manuales.
+            </li>
+            <li>
+              Diseño de bases de datos SQL para centralizar información de clientes, proveedores y
+              operaciones.
+            </li>
+          </ul>
+        </article>
+
+        <h2>Educación</h2>
+        <article class="education-item">
+          <div class="education-heading">
+            <h3>Tecnología en Análisis y Desarrollo de Software</h3>
+            <span class="location">Medellín, Colombia</span>
+          </div>
+          <div class="education-heading">
+            <span class="education-school">SENA</span>
+            <span class="education-meta">2023–2025 · Graduado</span>
+          </div>
+        </article>
+        <article class="education-item">
+          <div class="education-heading">
+            <h3>Ingeniería de Sistemas</h3>
+            <span class="location">Santander de Quilichao, Colombia</span>
+          </div>
+          <div class="education-heading">
+            <span class="education-school">Unicomfacauca</span>
+            <span class="education-meta">2019–2021</span>
+          </div>
+          <p class="education-meta">(6 semestres cursados)</p>
+        </article>
+
+        <h2>Habilidades</h2>
+        <p class="skill-list">
+          <span class="skill-label">Backend:</span> Java, Kotlin, Spring Boot, Spring WebFlux, Ktor,
+          APIs RESTful, microservicios.
+        </p>
+        <p class="skill-list">
+          <span class="skill-label">Frontend:</span> TypeScript, Angular, arquitectura de
+          microfrontends.
+        </p>
+        <p class="skill-list">
+          <span class="skill-label">Cloud &amp; DevOps:</span> AWS (ECR, ECS, Lambda, API Gateway,
+          ALB, S3), Docker, Kubernetes, Terraform, GitHub Actions, Azure DevOps, CI/CD.
+        </p>
+        <p class="skill-list">
+          <span class="skill-label">Observabilidad:</span> New Relic, AWS CloudWatch.
+        </p>
+        <p class="skill-list">
+          <span class="skill-label">Mensajería y datos:</span> RabbitMQ, MongoDB, MySQL, Redis.
+        </p>
+        <p class="skill-list">
+          <span class="skill-label">Herramientas de IA:</span> Agentes de IA aplicados al análisis y
+          desarrollo de soluciones.
+        </p>
+        <p class="skill-list">
+          <span class="skill-label">Arquitectura y calidad:</span> Microservicios, arquitecturas
+          orientadas a eventos, Clean Code, Arquitectura Hexagonal, Domain-Driven Design (DDD),
+          SOLID, JUnit, Mockito, SonarQube, Snyk, Scrum.
+        </p>
+        <p class="skill-list">
+          <span class="skill-label">Idiomas:</span> Español (nativo), Inglés (intermedio).
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
